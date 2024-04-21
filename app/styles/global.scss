@@ -1,0 +1,26 @@
+@import "helpers";
+
+// Global styles
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $base-font-size;
+}
+
+body {
+  width: 100vw;
+  color: $grayish-blue;
+  overflow-x: hidden;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(to right, $lime-green, $bright-cyan);
+  color: $very-light-gray;
+  font-weight: 700;
+}

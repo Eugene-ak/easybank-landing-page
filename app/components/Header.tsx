@@ -1,9 +1,10 @@
 import Image from "next/image";
 import logo from "@/public/images/logo.svg";
+import styles from "../styles/home.module.scss";
 
 export default function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <Image src={logo} alt="logo" />
       <ul>
         <li>Home</li>

@@ -1,0 +1,49 @@
+@import "helpers";
+
+.header {
+  width: 100%;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 5;
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+.hero {
+  width: 100%;
+  background: $very-light-gray;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-content: center;
+  justify-content: center;
+  // display: flex;
+  
+  // h1, p, button {
+    //   grid-area: 1 / 1 / 2 / 2;
+    // }
+    
+    div:first-of-type {
+    width: 50%;
+    grid-area: 1 / 1 / 2 / 2;
+    align-self: center;
+  }
+  
+  .hero_bg {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    right: -200px;
+    top: -150px;
+  }
+  
+  .mockup {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+}
