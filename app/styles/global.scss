@@ -23,4 +23,11 @@ button {
   background: linear-gradient(to right, $lime-green, $bright-cyan);
   color: $very-light-gray;
   font-weight: 700;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  color: $grayish-blue;
+  text-decoration: none;
 }

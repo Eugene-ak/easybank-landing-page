@@ -7,11 +7,11 @@ export default function Header() {
     <header className={styles.header}>
       <Image src={logo} alt="logo" />
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Blog</li>
-        <li>Careers</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Careers</a></li>
       </ul>
       <button>Request Invite</button>
     </header>
