@@ -1,11 +1,10 @@
-import Image from "next/image";
-import logo from "@/public/images/logo.svg";
 import styles from "../styles/home.module.scss";
+import Logo from "./Logo";
 
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Image src={logo} alt="logo" />
+      <Logo />
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
